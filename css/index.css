@@ -267,6 +267,11 @@ header a {
   width: 75%;
   margin: 0 auto 30px;
 }
+@media (max-width:500px) {
+  .home .content-container .content-destination {
+    width: 100%;
+  }
+}
 .home .content-container .content-destination img {
   border-radius: 10px;
 }
@@ -276,9 +281,22 @@ header a {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width:500px) {
+  .home .content-container .content-pick {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .home .content-container .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+@media (max-width:500px) {
+  .home .content-container .content-pick .destination {
+    width: 80%;
+  }
 }
 .home .content-container .content-pick .destination button {
   background-color: #17A2B8;
@@ -293,4 +311,5 @@ header a {
   border-radius: 2rem;
   border: 2px solid #C0C0C0;
   font-weight: 500;
+  width: 95%;
 }
