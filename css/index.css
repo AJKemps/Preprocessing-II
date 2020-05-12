@@ -152,7 +152,6 @@ h2 {
 }
 h4 {
   font-size: 2.5rem;
-  padding-bottom: 10px;
 }
 p {
   line-height: 1.5;
@@ -220,11 +219,27 @@ header a {
     justify-content: center;
     align-items: center;
   }
+  .home .content-container .content-section #one {
+    order: 1;
+  }
+  .home .content-container .content-section #two {
+    order: 2;
+  }
+  .home .content-container .content-section #three {
+    order: 4;
+  }
+  .home .content-container .content-section #four {
+    order: 3;
+  }
 }
 .home .content-container .content-section .welcome {
   padding: 0;
   margin: 0 0 5% 0;
   border-bottom: 2px dashed #C0C0C0;
+}
+.home .content-container .content-section .welcome img {
+  padding: 0%;
+  margin: 0%;
 }
 .home .content-container .content-section .text-content {
   width: 48%;
@@ -232,9 +247,9 @@ header a {
 }
 @media (max-width:500px) {
   .home .content-container .content-section .text-content {
-    width: 100%;
+    width: 98%;
     margin: auto;
-    padding: auto;
+    padding: 4% auto;
   }
 }
 .home .content-container .content-section .img-content {
@@ -243,9 +258,8 @@ header a {
 }
 @media (max-width:500px) {
   .home .content-container .content-section .img-content {
-    width: 100%;
-    margin: 0 auto;
-    padding: 0;
+    width: 98%;
+    margin: 4% auto;
   }
 }
 .home .content-container .content-section .img-content img {
